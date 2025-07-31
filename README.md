@@ -4,8 +4,9 @@ This is a survey form built for the first certification project on freeCodeCamp.
 
 ## Description
 
-This project was the first certification project to get the Responsive Web Design certificate on freeCodeCamp, which was about building a survey form using HTML (and CSS). The website only provided some basic testing, but there were no guidelines about the styling side, so I made it look good using CSS.
-I set the survey topic as Survey Form for Cookie Baking because baking is one of my favorite hobbies (especially, baking cookies), and I wanted my project to be related to my personal life, which is also why the background and overall pink design of the project represent me.
+This was my first certification project for the Responsive Web Design certificate on freeCodeCamp. The task was to build a survey form using HTML and CSS. The site gave some basic tests to pass but didn’t include any design requirements, so I styled it myself to make it look good.
+
+I chose the topic "Survey Form for Cookie Baking" because baking (especially cookies) is one of my favorite hobbies. I wanted the project to reflect something personal, so I used a pink-themed design that matches my style!
 
 <img width="1325" height="1289" alt="Survey Form Image" src="https://github.com/user-attachments/assets/270f4d31-6013-4ccb-a094-dfdb562af24b" />
 
