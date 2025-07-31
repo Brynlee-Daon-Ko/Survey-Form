@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="device-width,initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <h1 id="title">Survey Form for Cookie Baking</h1>
+    <img src="cookie.png" />
+    <p id="description">Which cookie flavor should I bake next?</p>
+  </div>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" name="name" id="name-label">Enter your name (required): <input id="name" type="text"
+          placeholder="ex) Brynlee Ko" required /></label>
+      <label for="email" name="email" id="email-label">Enter your email (required): <input id="email" type="email"
+          placeholder="ex) godaon1@gmail.com" required /></label>
+      <label for="number" name="number" id="number-label">Enter your phone number (optional): <input id="number"
+          type="number" min="1000000000" max="9999999999" placeholder="numbers only" /></label>
+    </fieldset>
+    <fieldset>
+      <label for="cookies-tried"> Have you ever tried the cookies I baked?</label>
+      <article class="answers">
+        <label>Yes<input name="cookies-tried" type="radio" value="yes" checked /></label>
+        <label>No<input name="cookies-tried" type="radio" value="no" /></label>
+      </article>
+    </fieldset>
+    <fieldset>
+      <label for="rate-cookies"> If yes, rate the cookies for me (1 to 5)</label>
+      <p>(You can select muliple options in case you had the cookies multiple times)</p>
+      <article class="answers">
+        <label>1<input class="rate-cookies" name="1" type="checkbox" value="1" /></label>
+        <label>2<input class="rate-cookies" name="2" type="checkbox" value="2" /></label>
+        <label>3<input class="rate-cookies" name="3" type="checkbox" value="3" /></label>
+        <label>4<input class="rate-cookies" name="4" type="checkbox" value="4" /></label>
+        <label>5<input class="rate-cookies" name="5" type="checkbox" value="5" /></label>
+      </article>
+    </fieldset>
+    <fieldset>
+      <label> Which cookie flavor would you like to eat next time?
+        <select name="dropbox" id="dropdown" required>
+          <option>select one</option>
+          <option>Matcha White Chocolate Chip Cookie</option>
+          <option>Milk Chocolate Chip Cookie (plain)</option>
+          <option>Red Velvet Cookie</option>
+          <option>Black and White Cookie</option>
+          <option>White Chocolate Macadamia Nut Cookie</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset id="comments">
+      <label for="comment"> Write any sugesstions for my cookies below </label>
+      <textarea name="comment" rows="3" cols="35" placeholder="e.g., Can you make them less sweet?"></textarea>
+    </fieldset>
+    <button id="submit"> Submit </button>
+  </form>
+</body>
+<footer>
+  <p>&copy; Brynlee(Daon) Ko</p>
+  <p>30,Jul,2025</p>
+</footer>
+
+</html>
