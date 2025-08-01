@@ -8,7 +8,7 @@ This was my first certification project for the Responsive Web Design certificat
 
 I chose the topic "Survey Form for Cookie Baking" because baking (especially cookies) is one of my favorite hobbies. I wanted the project to reflect something personal, so I used a pink-themed design that matches my style!
 
-<img width="1325" height="1289" alt="Survey Form Image" src="https://github.com/user-attachments/assets/270f4d31-6013-4ccb-a094-dfdb562af24b" />
+<img width="1508" height="1269" alt="Screenshot 2025-07-31 233648" src="https://github.com/user-attachments/assets/f404720f-43fe-4817-ba82-d83241714ac3" />
 
 ## Getting Started
 
